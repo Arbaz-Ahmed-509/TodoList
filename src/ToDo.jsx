@@ -44,7 +44,7 @@ const ToDo = () => {
     <div>
         
         <form action="" >
-            <input type="mail" value={inputVal} onChange={getInpVal} className='form' placeholder='Enter the data to Add in list' /> <br /><br />
+            <input type="mail" value={inputVal} onChange={getInpVal} className='form' placeholder='Enter text to Add in the list' /> <br /><br />
     
             <button type="value" onClick={addTodo} className='btns'>
                 {editVal ? "Add" :"Submit"}
